@@ -1,7 +1,15 @@
 .App {
-  max-width: 480px;
-  margin: 0 auto;
+  max-width: 720px;
   min-height: 100vh;
-  background: #fff;
-  box-shadow: 0 0 0 1px #eceae4;
+  margin: 0 auto;
+  background: var(--color-paper);
+  border-left: 1px solid var(--color-line);
+  border-right: 1px solid var(--color-line);
+}
+
+@media (max-width: 760px) {
+  .App {
+    border-left: none;
+    border-right: none;
+  }
 }
