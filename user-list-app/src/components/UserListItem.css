@@ -1,0 +1,59 @@
+.user-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border-bottom: 1px solid #eceae4;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.user-item:hover,
+.user-item:focus-visible {
+  background-color: #f6f5f1;
+}
+
+.user-item:focus-visible {
+  outline: 2px solid #2f5d50;
+  outline-offset: -2px;
+}
+
+.user-item__avatar {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f5d50;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-item__text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+
+.user-item__name {
+  font-weight: 600;
+  color: #1f2320;
+  font-size: 15px;
+}
+
+.user-item__email {
+  font-size: 13px;
+  color: #6b6f76;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.user-item__chevron {
+  color: #b9b6ac;
+  font-size: 20px;
+}

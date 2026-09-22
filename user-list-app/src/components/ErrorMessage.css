@@ -1,0 +1,40 @@
+.error-box {
+  margin: 32px 16px;
+  padding: 20px;
+  border: 1px solid #e3b8b0;
+  background: #fbf1ef;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.error-box__title {
+  margin: 0 0 4px;
+  font-weight: 600;
+  color: #8a3324;
+}
+
+.error-box__detail {
+  margin: 0 0 12px;
+  color: #7a4a41;
+  font-size: 14px;
+}
+
+.error-box__retry {
+  border: 1px solid #8a3324;
+  background: transparent;
+  color: #8a3324;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.error-box__retry:hover {
+  background: #8a3324;
+  color: #fff;
+}
+
+.error-box__retry:focus-visible {
+  outline: 2px solid #8a3324;
+  outline-offset: 2px;
+}

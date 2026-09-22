@@ -1,0 +1,46 @@
+.user-detail-screen {
+  min-height: 100vh;
+  padding: 16px;
+}
+
+.user-detail-screen__back {
+  background: none;
+  border: none;
+  color: #2f5d50;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 8px 0;
+  margin-bottom: 12px;
+}
+
+.user-detail-screen__card h1 {
+  margin: 0 0 4px;
+  font-size: 22px;
+}
+
+.user-detail-screen__email {
+  margin: 0 0 20px;
+  color: #6b6f76;
+}
+
+.user-detail-screen__card dl {
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  row-gap: 12px;
+  column-gap: 16px;
+}
+
+.user-detail-screen__card dt {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #9a978d;
+  align-self: start;
+}
+
+.user-detail-screen__card dd {
+  margin: 0;
+  font-size: 14px;
+  color: #1f2320;
+}
